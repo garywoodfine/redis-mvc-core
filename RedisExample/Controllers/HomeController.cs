@@ -1,25 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
-using RedisConfiguration;
+
+using RedisConfig;
 
 namespace RedisExample.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly RedisConfigurationOptions _redis;
-        public HomeController(IOptions<RedisConfigurationOptions> redis)
-        {
+        private readonly RedisConfiguration _redis;
+        private readonly IDistributedCache _cache;
+        public HomeController(IOptions<RedisConfiguration> redis, IDistributedCache cache)
+        {   
             _redis = redis.Value;
+            _cache = cache;
         }
         public IActionResult Index()
         {
+            var helloRedis = Encoding.UTF8.GetBytes("Hello Redis");
+            HttpContext.Session.Set("hellokey", helloRedis);
+
+            var getHello = default(byte[]);
+            HttpContext.Session.TryGetValue("hellokey", out getHello);
+            ViewData["Hello"] = Encoding.UTF8.GetString(getHello);
+            ViewData["SessionID"] = HttpContext.Session.Id;
+           
+            _cache.SetString("CacheTest", "Gary is awesome");
+
             ViewData["Host"] =_redis.Host;
             ViewData["Port"] = _redis.Port;
             ViewData["Name"] = _redis.Name;
+
+
+            ViewData["DistCache"] = _cache.GetString("CacheTest");
+
 
             return View();
         }

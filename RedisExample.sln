@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExample", "RedisExample\RedisExample.csproj", "{748FB28D-3B34-43FD-A4D9-BC17434C8C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisExample", "RedisExample\RedisExample.csproj", "{748FB28D-3B34-43FD-A4D9-BC17434C8C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisConfiguration", "RedisConfiguration\RedisConfiguration.csproj", "{6B78B54E-0489-4E4D-AF34-768F06E69B99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisConfig", "RedisConfiguration\RedisConfig.csproj", "{6B78B54E-0489-4E4D-AF34-768F06E69B99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
