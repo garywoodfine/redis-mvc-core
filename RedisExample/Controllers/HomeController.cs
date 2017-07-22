@@ -30,7 +30,7 @@ namespace RedisExample.Controllers
             ViewData["Hello"] = Encoding.UTF8.GetString(getHello);
             ViewData["SessionID"] = HttpContext.Session.Id;
            
-            _cache.SetString("CacheTest", "Gary is awesome");
+            _cache.SetString("CacheTest", "Redis is awesome");
 
             ViewData["Host"] =_redis.Host;
             ViewData["Port"] = _redis.Port;
