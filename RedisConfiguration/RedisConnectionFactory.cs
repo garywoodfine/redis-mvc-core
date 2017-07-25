@@ -10,6 +10,7 @@
         ///     The _connection.
         /// </summary>
         private readonly Lazy<ConnectionMultiplexer> _connection;
+       
 
         private readonly IOptions<RedisConfiguration> redis;
 

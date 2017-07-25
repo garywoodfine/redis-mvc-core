@@ -39,6 +39,7 @@ namespace RedisExample
                 options.Configuration = Configuration.GetValue<string>("redis:host");
             });
 
+            services.AddSingleton<IRedisConnectionFactory, RedisConnectionFactory>();
             services.AddSession();
         }
 

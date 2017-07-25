@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
-
+using StackExchange.Redis;
 using RedisConfig;
 
 namespace RedisExample.Controllers
@@ -15,10 +15,12 @@ namespace RedisExample.Controllers
     {
         private readonly RedisConfiguration _redis;
         private readonly IDistributedCache _cache;
-        public HomeController(IOptions<RedisConfiguration> redis, IDistributedCache cache)
+        private readonly IRedisConnectionFactory _fact;
+        public HomeController(IOptions<RedisConfiguration> redis, IDistributedCache cache,IRedisConnectionFactory boo)
         {   
             _redis = redis.Value;
             _cache = cache;
+            _fact = boo;
         }
         public IActionResult Index()
         {
@@ -39,6 +41,10 @@ namespace RedisExample.Controllers
 
             ViewData["DistCache"] = _cache.GetString("CacheTest");
 
+            var db = _fact.Connection().GetDatabase();
+            db.StringSet("StackExchange.Redis.Key", "Stack Exchange Redis is Awesome");
+
+            ViewData["StackExchange"] = db.StringGet("StackExchange.Redis.Key");
 
             return View();
         }
