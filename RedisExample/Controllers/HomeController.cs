@@ -16,11 +16,11 @@ namespace RedisExample.Controllers
         private readonly RedisConfiguration _redis;
         private readonly IDistributedCache _cache;
         private readonly IRedisConnectionFactory _fact;
-        public HomeController(IOptions<RedisConfiguration> redis, IDistributedCache cache,IRedisConnectionFactory boo)
+        public HomeController(IOptions<RedisConfiguration> redis, IDistributedCache cache,IRedisConnectionFactory factory)
         {   
             _redis = redis.Value;
             _cache = cache;
-            _fact = boo;
+            _fact = factory;
         }
         public IActionResult Index()
         {
@@ -43,12 +43,17 @@ namespace RedisExample.Controllers
 
             var db = _fact.Connection().GetDatabase();
             db.StringSet("StackExchange.Redis.Key", "Stack Exchange Redis is Awesome");
-
             ViewData["StackExchange"] = db.StringGet("StackExchange.Redis.Key");
 
             return View();
         }
 
+        public IActionResult Vote (string value)
+        {
+
+            var someValue = value;
+            return View("Index");
+        }
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

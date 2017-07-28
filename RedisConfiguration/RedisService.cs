@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace RedisConfig
+﻿namespace RedisConfig
 {
+    using System;
+
     public class RedisService<T> : IRedisService<T>
     {
         private readonly IRedisConnectionFactory _factory;
 
         public RedisService(IRedisConnectionFactory factory)
         {
-            _factory = factory;
+            this._factory = factory;
         }
+
         public void Delete(string key)
         {
             throw new NotImplementedException();
@@ -24,8 +23,6 @@ namespace RedisConfig
 
         public void Save(string key, T obj)
         {
-           
-
             throw new NotImplementedException();
         }
     }

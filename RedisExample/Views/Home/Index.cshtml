@@ -3,23 +3,40 @@
 }
 
 <div class="container">
-<div id="redis-config" class="row">
-    <div class="col-lg-2 alert-info">
-        <h5>Redis Configuration</h5>
-        <p><span class="label label-default"> Name</span>@ViewData["Name"]</p>
-        <p><span class="label label-default">Host</span>@ViewData["Host"]</p>
-        <p><span class="label label-default">Port</span>@ViewData["Port"]</p>
-    </div>
-    <div class="col-lg-2 alert-info">
-        <h5>Redis Session</h5>
-        <p><span class="label label-default"> Session ID</span>@ViewData["SessionID"]</p>
-        <p><span class="label label-default"> Data</span>@ViewData["Hello"]</p>
-        <p><span class="label label-default"> Distributed Cache</span>@ViewData["DistCache"]</p>
-    </div>
-    <div class="col-lg-2 alert-info">
-        <h5>StackExchange Redis Session</h5>
-        <p><span class="label label-default"> Session ID</span>@ViewData["StackExchange"]</p>
+    <div id="redis-config" class="row">
+        <div class="col-lg-4 panel">
+            <h5>Redis Configuration</h5>
+            <p><span class="label label-default"> Name</span>@ViewData["Name"]</p>
+            <p><span class="label label-default">Host</span>@ViewData["Host"]</p>
+            <p><span class="label label-default">Port</span>@ViewData["Port"]</p>
+        </div>
+        <div class="col-lg-4 panel">
+            <h5>Redis Session</h5>
+            <p><span class="label label-default"> Session ID</span>@ViewData["SessionID"]</p>
+            <p><span class="label label-default"> Data</span>@ViewData["Hello"]</p>
+            <p><span class="label label-default"> Distributed Cache</span>@ViewData["DistCache"]</p>
+        </div>
+        <div class="col-lg-4 panel">
+            <h5>StackExchange Redis Session</h5>
+            <p><span class="label label-default"> Stackexchange.Redis</span>@ViewData["StackExchange"]</p>
      
+        </div>
+    </div>
+    <hr />
+<div id="redis" class="row">
+    <div id="vote-panel" class="col-lg-4 panel">
+        <h5>Do you like Redis</h5>
+        <div id="vote-group">
+            <p><button class="btn btn-primary btn-block" value="Y">Yes</button></p>
+            <p><button class="btn btn-primary btn-block" value="N">No</button></p>
+            <p><button class="btn btn-primary btn-block" value="U">Undecided</button></p>
+        </div>
+      
+    </div>
+    
+    <div id="vote-panel" class="col-lg-4 panel">
+        
+        <p id="testarea"></p>
     </div>
 </div>
 </div>

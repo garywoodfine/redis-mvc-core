@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with NDepend v2017.2.1</Info>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Hosting.Abstractions}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Hosting.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Configuration.Abstractions}:
+Can't find the .NET assembly {Microsoft.Extensions.Configuration.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.DependencyInjection.Abstractions}:
+Can't find the .NET assembly {Microsoft.Extensions.DependencyInjection.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Http.Abstractions}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Http.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Logging.Abstractions}:
+Can't find the .NET assembly {Microsoft.Extensions.Logging.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Caching.Redis}:
+Can't find the .NET assembly {Microsoft.Extensions.Caching.Redis} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Routing}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Routing} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Mvc.ViewFeatures}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Mvc.ViewFeatures} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Caching.Abstractions}:
+Can't find the .NET assembly {Microsoft.Extensions.Caching.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Options}:
+Can't find the .NET assembly {Microsoft.Extensions.Options} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Mvc.Abstractions}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Mvc.Abstractions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {StackExchange.Redis}:
+Can't find the .NET assembly {StackExchange.Redis} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Hosting}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Hosting} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Server.Kestrel}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Server.Kestrel} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {System.IO.FileSystem}:
+Can't find the .NET assembly {System.IO.FileSystem} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Server.IISIntegration}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Server.IISIntegration} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.ApplicationInsights.AspNetCore}:
+Can't find the .NET assembly {Microsoft.ApplicationInsights.AspNetCore} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Configuration}:
+Can't find the .NET assembly {Microsoft.Extensions.Configuration} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Configuration.FileExtensions}:
+Can't find the .NET assembly {Microsoft.Extensions.Configuration.FileExtensions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Configuration.Json}:
+Can't find the .NET assembly {Microsoft.Extensions.Configuration.Json} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Configuration.EnvironmentVariables}:
+Can't find the .NET assembly {Microsoft.Extensions.Configuration.EnvironmentVariables} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Mvc}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Mvc} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Mvc.Core}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Mvc.Core} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Options.ConfigurationExtensions}:
+Can't find the .NET assembly {Microsoft.Extensions.Options.ConfigurationExtensions} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Session}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Session} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Logging.Console}:
+Can't find the .NET assembly {Microsoft.Extensions.Logging.Console} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Logging.Debug}:
+Can't find the .NET assembly {Microsoft.Extensions.Logging.Debug} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Diagnostics}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Diagnostics} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.VisualStudio.Web.BrowserLink}:
+Can't find the .NET assembly {Microsoft.VisualStudio.Web.BrowserLink} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.StaticFiles}:
+Can't find the .NET assembly {Microsoft.AspNetCore.StaticFiles} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.Extensions.Configuration.Binder}:
+Can't find the .NET assembly {Microsoft.Extensions.Configuration.Binder} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Warning>Can't load the assembly {Microsoft.AspNetCore.Http.Features}:
+Can't find the .NET assembly {Microsoft.AspNetCore.Http.Features} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Info>Concurrent mode</Info>
+  <Info>.NET Assemblies loaded from {C:\New folder\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp1.1} 
+   RedisExample.dll   v1.0.0.0
+   RedisConfig.dll   v1.0.0.0</Info>
+  <Info>.NET Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v4.0.30319} 
+   System.Runtime.dll   v4.0.0.0
+   System.Diagnostics.Debug.dll   v4.0.0.0
+   System.Text.Encoding.dll   v4.0.0.0
+   System.IO.dll   v4.0.0.0
+   mscorlib.dll   v4.0.0.0</Info>
+  <Warning>No application or third party assembly found in directory {C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF}. This directory doesn't need to be referenced by the NDepend project.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Hosting.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Configuration.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.DependencyInjection.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Http.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Logging.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Caching.Redis} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Routing} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Mvc.ViewFeatures} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Caching.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Options} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Mvc.Abstractions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {StackExchange.Redis} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Hosting} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Server.Kestrel} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {System.IO.FileSystem} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Server.IISIntegration} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.ApplicationInsights.AspNetCore} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Configuration} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Configuration.FileExtensions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Configuration.Json} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Configuration.EnvironmentVariables} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Mvc} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Mvc.Core} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Options.ConfigurationExtensions} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Session} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Logging.Console} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Logging.Debug} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Diagnostics} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.VisualStudio.Web.BrowserLink} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.StaticFiles} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Configuration.Binder} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.AspNetCore.Http.Features} is referenced by {RedisExample} but is not found.</Warning>
+  <Warning>Assembly {StackExchange.Redis} is referenced by {RedisConfig} but is not found.</Warning>
+  <Warning>Assembly {Microsoft.Extensions.Options} is referenced by {RedisConfig} but is not found.</Warning>
+  <Info>6 source files parsed ; all source files found ; all source files in-sync with PDB</Info>
+  <Info>0 code rule has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Info>Do merge code generated by compiler into application code.</Info>
+  <Info>Analyse dependencies of your application.</Info>
+  <Info>Log trend metrics values.</Info>
+  <Info>Execute queries and rules.</Info>
+  <Info>NDepend analysis done. Duration: 00:08</Info>
+  <Info>Building the report (standard).</Info>
+</InfoWarnings>
