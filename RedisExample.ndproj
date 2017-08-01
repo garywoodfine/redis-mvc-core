@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <NDepend AppName="RedisExample" Platform="DotNet" FileWrittenByProductVersion="2017.2.1.8955">
   <OutputDir KeepXmlFiles="False">C:\New folder\Sample Apps\redis-mvc-core\NDependOut</OutputDir>
   <Assemblies>
@@ -39,14 +39,16 @@
     <Name>Microsoft.VisualStudio.Web.BrowserLink</Name>
     <Name>Microsoft.AspNetCore.StaticFiles</Name>
     <Name>Microsoft.Extensions.Configuration.Binder</Name>
-    <Name>System.Text.Encoding</Name>
     <Name>Microsoft.AspNetCore.Http.Features</Name>
-    <Name>System.IO</Name>
+    <Name>System.Linq</Name>
+    <Name>System.Runtime.Extensions</Name>
   </FrameworkAssemblies>
   <Dirs>
-    <Dir>C:\New folder\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp1.1</Dir>
     <Dir>C:\Windows\Microsoft.NET\Framework\v4.0.30319</Dir>
     <Dir>C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF</Dir>
+    <Dir>C:\New folder\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp1.1</Dir>
+    <Dir>C:\Experiments\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp2.0</Dir>
+    <Dir>C:\Experiments\Sample Apps\redis-mvc-core\RedisConfiguration\bin\debug\netcoreapp2.0</Dir>
   </Dirs>
   <MergeCodeGeneratedByCompiler>True</MergeCodeGeneratedByCompiler>
   <Report Kind="0" SectionsEnabled="110591" XslPath="" Flags="261120" />
@@ -112,8 +114,7 @@
       <High2Critical_SeverityThreshold>72000000000</High2Critical_SeverityThreshold>
       <Critical2Blocker_SeverityThreshold>360000000000</Critical2Blocker_SeverityThreshold>
     </DebtSettings>
-  </ProjectDebtSettings>
-  <Queries>
+  </ProjectDebtSettings><Queries>
     <Group Name="Quality Gates" Active="True" ShownInReport="True">
       <Query Active="True" DisplayList="True" DisplayStat="True" DisplaySelectionView="False" IsCriticalRule="False"><![CDATA[// <Name>Quality Gates Evolution</Name>
 from qg in QualityGates
@@ -10971,6 +10972,4 @@ select new {
 //</HowToFix>]]></Query>
       </Group>
     </Group>
-  </Queries>
-  <WarnFilter />
-</NDepend>
+  </Queries></NDepend>
