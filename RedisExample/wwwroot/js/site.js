@@ -10,8 +10,8 @@ $(document).ready(function (e) {
                 data: { value: vote
         },
                 type: "POST",
-                success: function (data) {
-                    $('#testarea').html("All OK");
+                success: function (result) {
+                    $('#testarea').html(result);
                 },
                 error: function () {
                     $("#testarea").html("ERROR");

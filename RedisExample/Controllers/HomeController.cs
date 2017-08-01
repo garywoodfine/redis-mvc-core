@@ -11,6 +11,10 @@ using RedisConfig;
 
 namespace RedisExample.Controllers
 {
+    using Microsoft.Net.Http.Headers;
+
+    using RedisExample.Models;
+
     public class HomeController : Controller
     {
         private readonly RedisConfiguration _redis;
@@ -50,9 +54,25 @@ namespace RedisExample.Controllers
 
         public IActionResult Vote (string value)
         {
+            var redis = new RedisVoteService<Vote>(this._fact);
+            var theVote = new Vote();
+            switch (value)
+            {
+                case "Y":
+                    theVote.Yes = 1;
+                    break;
+                case "N":
+                    theVote.No = 1;
+                    break;
+                case "U":
+                    theVote.Undecided = 1;
+                    break;
+                default: break;
+            }
+            redis.Save("RedisVote",theVote);
 
-            var someValue = value;
-            return View("Index");
+            var model = redis.Get("RedisVote");
+            return this.PartialView("RedisVote", model);
         }
         public IActionResult About()
         {

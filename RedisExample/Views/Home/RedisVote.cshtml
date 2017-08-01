@@ -1,0 +1,12 @@
+﻿
+@model RedisExample.Models.Vote
+
+<div class="col-lg-8 panel ">
+    <h5>Results </h5>
+    <p><span class="label label-default"> Yes</span>@Model.Yes</p>
+    <p><span class="label label-default"> No</span>@Model.No</p>
+    <p><span class="label label-default"> Undecided</span>@Model.Undecided</p>
+
+    <p><span class="label label-default"> Total Votes Cast </span> @(Model.Yes + Model.No + Model.Undecided)
+    </p>
+</div>
