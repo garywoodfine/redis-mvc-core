@@ -30,6 +30,17 @@ sudo apt install redis-server
 sudo apt install redis-tools
 ```
 
+### MacOSX 
+
+``
+    brew install redis
+ 
+    #Launch redis on restart
+    ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents`
+
+```
+
+
 ### Docker
 
 Check out the official [Redis repository on the Docker Store](https://store.docker.com/images/redis)
@@ -38,3 +49,6 @@ Check out the official [Redis repository on the Docker Store](https://store.dock
 docker pull redis 
 docker run --name some-redis -d redis
 ```
+
+
+[![threenine logo](https://threenine.co.uk/wp-content/uploads/2016/12/threenine_footer.png)](https://threenine.co.uk/)

@@ -12,7 +12,6 @@
 
         public RedisVoteService(IRedisConnectionFactory connectionFactory)
         {
-     
             this.ConnectionFactory = connectionFactory;
             this.Db = this.ConnectionFactory.Connection().GetDatabase();
         }
@@ -30,7 +29,6 @@
         {
             key = this.GenerateKey(key);
             var hash = this.Db.HashGetAll(key);
-
             return this.MapFromHash(hash);
         }
 
@@ -52,7 +50,6 @@
                     {
                         if (this.Db.HashExists(key, item.Name))
                         {
-
                             this.Db.HashIncrement(key, item.Name, Convert.ToInt32(item.GetValue(obj)));
                         }
                     }
@@ -60,7 +57,5 @@
 
             }
         }
-      
-    }
-
+   }
 }
