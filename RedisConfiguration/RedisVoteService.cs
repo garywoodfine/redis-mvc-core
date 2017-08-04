@@ -18,8 +18,7 @@
 
         public void Delete(string key)
         {
-            if (string.IsNullOrWhiteSpace(key) || key.Contains(":"))
-                throw new ArgumentException("invalid key");
+            if (string.IsNullOrWhiteSpace(key) || key.Contains(":")) throw new ArgumentException("invalid key");
 
             key = this.GenerateKey(key);
             this.Db.KeyDelete(key);
