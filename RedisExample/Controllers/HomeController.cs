@@ -52,7 +52,7 @@ namespace RedisExample.Controllers
             return View();
         }
 
-        public IActionResult Vote (string value)
+        public PartialViewResult Vote (string value)
         {
             var redis = new RedisVoteService<Vote>(this._fact);
             var theVote = new Vote();
@@ -69,10 +69,10 @@ namespace RedisExample.Controllers
                     break;
                 default: break;
             }
-            redis.Save("RedisVote",theVote);
+            redis.Save("RedisVote", theVote);
 
             var model = redis.Get("RedisVote");
-            return this.PartialView("RedisVote", model);
+           return this.PartialView("~/Views/Home/Vote.cshtml", model);
         }
         public IActionResult About()
         {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <NDepend AppName="RedisExample" Platform="DotNet" FileWrittenByProductVersion="2017.2.1.8955">
-  <OutputDir KeepXmlFiles="False">C:\New folder\Sample Apps\redis-mvc-core\NDependOut</OutputDir>
+  <OutputDir KeepXmlFiles="False">C:\Experiments\Sample Apps\redis-mvc-core\NDependOut</OutputDir>
   <Assemblies>
     <Name>RedisExample</Name>
     <Name>RedisConfig</Name>
@@ -42,11 +42,15 @@
     <Name>Microsoft.AspNetCore.Http.Features</Name>
     <Name>System.Linq</Name>
     <Name>System.Runtime.Extensions</Name>
+    <Name>System.Text.Encoding</Name>
+    <Name>System.Reflection</Name>
+    <Name>System.Reflection.TypeExtensions</Name>
+    <Name>System.IO</Name>
   </FrameworkAssemblies>
   <Dirs>
     <Dir>C:\Windows\Microsoft.NET\Framework\v4.0.30319</Dir>
     <Dir>C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF</Dir>
-    <Dir>C:\New folder\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp1.1</Dir>
+    <Dir>C:\Experiments\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp1.1</Dir>
     <Dir>C:\Experiments\Sample Apps\redis-mvc-core\RedisExample\bin\debug\netcoreapp2.0</Dir>
     <Dir>C:\Experiments\Sample Apps\redis-mvc-core\RedisConfiguration\bin\debug\netcoreapp2.0</Dir>
   </Dirs>
