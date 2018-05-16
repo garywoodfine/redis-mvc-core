@@ -4,7 +4,7 @@ This is an example application illustrating different methods to integrate Redis
 
 It is supplementary code for my blog post series:
 
-[Redis InMemory Cache in ASP.net MVC Core](https://garywoodfine.com/redis-inmemory-c…asp-net-mvc-core/)
+[Redis InMemory Cache in ASP.net MVC Core](https://garywoodfine.com/redis-inmemory-cache-asp-net-mvc-core/)
 [Why, When and How to use Redis in ASP.net MVC Core](https://garywoodfine.com/why-when-and-how-to-use-redis-in-asp-net-mvc-core/)
 
 This application is developed using Microsoft .net core so you can run on it on any operating system of your choice as long as you have .net core installed.
